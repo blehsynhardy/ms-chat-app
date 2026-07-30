@@ -1,0 +1,24 @@
+@baseGateway = http://localhost:4000
+
+
+### Auth register
+
+POST {{baseGateway}}/auth/register HTTP/1.1
+content-type: application/json
+
+{
+    "email": "baseeee@gmail.com",
+    "displayName": "Blfess wayne",
+    "password" : "nst333reet"
+}
+
+
+### Auth login
+
+POST {{baseGateway}}/auth/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "jonnywayne@gmail.com",
+    "password" : "nst333reetss"
+} 
